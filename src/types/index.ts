@@ -9,8 +9,6 @@ export interface IAnimal {
   whatEat: (food: string) => string;
 }
 
-export interface IRat extends IAnimal {}
-
 export interface ISoldier extends IHuman {
   health: number;
   defensePower: number;
